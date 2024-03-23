@@ -44,7 +44,7 @@ resource "aws_vpc" "vpc2" {
   }
 }
 
-# Creating the VPC in the eu-east-1 region
+# Creating the VPC in the eu-north-1 region
 resource "aws_vpc" "vpc3" {
   provider = aws.eu-n1
   cidr_block = "10.0.0.0/16"
